@@ -13,3 +13,8 @@ print('mo.group():  ' + mo.group())
 print('mo.group(0): ' + mo.group(0))
 print('mo.group(1): ' + mo.group(1))
 print('mo.group(2): ' + mo.group(2))
+
+# retrieving all the groups at once
+print('\nNotice the plural returns a tuple')
+print('mo.groups(): ')
+print(mo.groups())
